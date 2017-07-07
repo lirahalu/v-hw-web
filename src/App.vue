@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <header-nav v-if="!showLogin">
-      <router-view></router-view>
-    </header-nav>
-    <router-view v-else></router-view>
+    <router-view></router-view>
   </div>
 </template>
 

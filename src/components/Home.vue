@@ -1,28 +1,9 @@
 <style scoped>
+  .header-title{text-align: center;font-size: 30px;}
 </style>
 <template>
-  <div class="app">
-    <div class="layout-content-main">
-      <Row class="s_search" >
-        <i-col span="20">
-            <span>
-              所在区服
-              <i-select v-model="server_model" size="small" style="width:100px">
-                <Option v-for="item in cityList" :value="item.value" :key="item">{{ item.label }}</Option>
-              </i-select>
-            </span>
-          <i-input v-model="server_model" placeholder="发布频道" style="width: 200px"></i-input>
-          <Input-numbert v-model="server_model" :min="1" placeholder="代练时限" style="width: 200px"></Input-numbert>
-          <i-input v-model="server_model" placeholder="所在区服..." style="width: 200px"></i-input>
-        </i-col>
-        <i-col span="4">
-          <i-button type="primary">Primary</i-button>
-        </i-col>
-      </Row>
-      <Row>
-        <i-table stripe :columns="rateCol" :data="rateList"></i-table>
-      </Row>
-    </div>
+  <div class="app header-title">
+    victory户外官网正在开发！敬请期待
   </div>
 </template>
 <script>
