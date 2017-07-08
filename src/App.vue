@@ -5,7 +5,6 @@
 </template>
 
 <script>
-  import HeaderNav from './components/public/headerNav.vue';
   export default {
     name: 'app',
     /*data () {
@@ -26,7 +25,7 @@
       }
     },*/
     components: {
-      HeaderNav
+
     }
   }
 </script>

@@ -16,7 +16,7 @@ Vue.use(VueRouter);
 
 // 路由配置
 const RouterConfig = {
-  mode: 'history',
+  //mode: 'history',
   routes: Routers
 };
 const router = new VueRouter(RouterConfig);
@@ -25,7 +25,7 @@ router.beforeEach((to, from, next) => {
   iView.LoadingBar.start(); //iview 加载条
 
   //如果路由中设置了meta.requiresAuth 即 需要token验证 ， 若token 不存在 则重定向至 登录界面
-  if (to.matched.some(record => record.meta.requiresAuth) && api.getCookie('token')) {
+  if (to.matched.some(record => record.meta.requiresAuth) && !api.getCookie('token')) {
     next({
       path: '/login',
       query: { redirect: to.fullPath }
