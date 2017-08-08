@@ -1,0 +1,78 @@
+/*----------------------------------------通用模块---------------------------------------------------*/
+/*全局定义*/
+html, body {height: 100%; font-family:Microsoft YaHei; background:#fff; color: #333;}
+.w1140{ width:1140px; margin:0 auto;}/*全局页面宽度*/
+.w800{ width:800px; margin:0 auto;}/*全局页面宽度*/
+a { color: #0a6da8;text-decoration: none;}
+a:hover,
+a:focus { color: #1a75bc; text-decoration:none;}
+body{min-width: 1240px;}
+.my-gray-text{ color:#999 !important;}
+.my-red-text{ color:#d4252a !important;}
+.my-blue-text{ color:#1fb5fc !important}
+.my-green-text{ color:#7eb85c !important}
+.my-yellow-text{ color:#cccc00 !important}
+.my-black-text{ color:#333 !important;}
+.my-blue2-text {  color: #1d3654!important;  }
+.my-white-text{ color: #fff !important;}
+.my-12-text{ font-size:12px !important}
+.my-14-text{ font-size:14px !important}
+.my-16-text{ font-size:16px !important;}
+.my-18-text{ font-size:18px !important;}
+.my-20-text{ font-size:20px !important}
+.my-22-text{ font-size:22px !important}
+.my-24-text{ font-size:24px !important}
+.my-26-text{ font-size:26px !important}
+.my-30-text{ font-size:30px !important}
+.my-36-text{ font-size:36px !important;}
+.my-60-text{ font-size:60px !important;}
+
+.my-pad-0{ padding:0 !important;}
+.my-pad-t6{ padding-top:6px;}
+.my-mar-t30{ margin-top: 30px;}
+.my-mar-t46{ margin-top: 46px;}
+.my-pad-tb20{ padding:20px 0 20px 0;}
+.my-pad-22{ padding:22px;}
+.my-pad-t0{ padding-top:0 !important;}
+.my-mar-0{ margin: 0 !important;}
+.my-pad-b20{ padding-bottom: 20px;}
+
+.my-mar-r6{ margin-right: 6px;}
+.my-mar-tb18{ margin:18px auto 50px auto;}
+.my-mar-tb30{ margin:30px auto 50px auto;}
+.my-mar-b10{ margin-bottom:10px;}
+.my-border-none{ border: 0 !important;}
+.my-border-b1{ border-bottom:1px solid #ebebeb;}
+.my-border-t2{border-top:2px solid #ebebeb;}
+
+.pull-right{float: right;}
+
+img{width: 100%;}
+
+.my-solutions{ min-height: 738px; padding: 40px 0 84px 0;
+  background-image: -webkit-linear-gradient(45deg, rgba(42, 215, 239, 1) 50%,  rgba(35, 233, 193, 1) 100%);
+  background-image:      -o-linear-gradient(45deg, rgba(42, 215, 239, 1) 50%,  rgba(35, 233, 193, 1) 100%);
+  background-image:         linear-gradient(45deg, rgba(42, 215, 239, 1) 50%,  rgba(35, 233, 193, 1) 100%);
+}
+.my-tab{ display: inline-block; margin:44px 0 30px 0;}
+.my-tab li{ float: left; width: 190px;border: 1px solid #fff; border-radius: 22px; margin-right: 18px; height: 48px; line-height: 48px;}
+.my-tab li:last-child{ margin-right: 0;}
+.my-tab li a{ display: block;  font-size: 18px; color: #fff;}
+.my-tab li:hover,.my-tab li.on{background: #fff;}
+.my-tab li:hover a,.my-tab li.on a{color: #1d3654;}
+
+.my-tab-box{width: 100%;  height:457px;   overflow: hidden;  position: relative;}
+.my-tab-box .my-tab-wrap{width: 11700px; position: absolute;}
+.my-tab-box .my-tab-contents{ width: 3900px; float: left;height:457px; }
+.my-tab-item{float: left;  width: 760px;  height: 457px;  margin: 0 10px;  background: #ffffff;  display: inline;  opacity: .3;  filter: alpha(opacity=30);}
+.my-tab-list{ background: url("images/bg-solutions.png") no-repeat center; padding: 36px;}
+.my-tab-list >.pull-left,.my-tab-list >.pull-right{ width: 45%;}
+.my-tab-list  h4{ line-height: 30px; padding-left: 30px; color: #1d3654; margin: 0 0 20px 0;}
+.my-tab-list >.pull-left h4{ background-position: 0 -97px; }
+.my-tab-list >.pull-right h4{ background-position: 0 -148px; }
+.my-tab-list ul{ margin-left: 10px;}
+.my-tab-list li{ padding-bottom: 14px;}
+.my-tab-list li:last-child{ padding: 0;}
+.my-tab-item-b .my-tab-list{ background: none;}
+.my-tab-item-b .pull-left{ width: 30%;}
+.my-tab-item-b .pull-right{ width: 65%;}

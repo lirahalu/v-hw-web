@@ -7,6 +7,7 @@ import VueRouter from 'vue-router';
 import Routers from './router';
 import api from './fetch/api';
 import 'iview/dist/styles/iview.css';
+import '@/assets/v.css'
 
 Vue.config.productionTip = false;
 Vue.use(iView);

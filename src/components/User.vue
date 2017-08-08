@@ -79,7 +79,7 @@
         rateList: [
           {
             name: '王小明',
-            avatar: 'http://linglong.mengdie.com/static/index/src/img/index/t6.png',
+            avatar: 'http://linglong.mengdie.com/static/index/src/images/index/t6.png',
             address: '北京市朝阳区芍药居',
 
           },
