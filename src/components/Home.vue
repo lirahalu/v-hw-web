@@ -19,42 +19,42 @@
       <Carousel autoplay v-model="value2">
         <Carousel-item>
           <div class="demo-carousel">
-            <img src="../assets/images/00018.jpg" alt="">
+            <img src="../assets/images/00018-min.jpg" alt="">
           </div>
         </Carousel-item>
         <Carousel-item>
           <div class="demo-carousel">
-            <img src="../assets/images/00021.jpg" alt="">
+            <img src="../assets/images/00021-min.jpg" alt="">
           </div>
         </Carousel-item>
         <Carousel-item>
           <div class="demo-carousel">
-            <img src="../assets/images/00022.jpg" alt="">
+            <img src="../assets/images/00022-min.jpg" alt="">
           </div>
         </Carousel-item>
         <Carousel-item>
           <div class="demo-carousel">
-            <img src="../assets/images/00023.jpg" alt="">
+            <img src="../assets/images/00023-min.jpg" alt="">
           </div>
         </Carousel-item>
         <Carousel-item>
           <div class="demo-carousel">
-            <img src="../assets/images/00024.jpg" alt="">
+            <img src="../assets/images/00024-min.jpg" alt="">
           </div>
         </Carousel-item>
         <Carousel-item>
           <div class="demo-carousel">
-            <img src="../assets/images/00025.jpg" alt="">
+            <img src="../assets/images/00025-min.jpg" alt="">
           </div>
         </Carousel-item>
         <Carousel-item>
           <div class="demo-carousel">
-            <img src="../assets/images/00026.jpg" alt="">
+            <img src="../assets/images/00026-min.jpg" alt="">
           </div>
         </Carousel-item>
         <Carousel-item>
           <div class="demo-carousel">
-            <img src="../assets/images/00027.jpg" alt="">
+            <img src="../assets/images/00027-min.jpg" alt="">
           </div>
         </Carousel-item>
       </Carousel>
